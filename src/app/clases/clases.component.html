@@ -1,0 +1,15 @@
+<h2>ngClass</h2>
+<p>Angular nos permite manipular las clases que se asocian a un elemento HTML.<br>La directiva de atributo [ngClass] permite establecer una o más clases a un elemento HTML.
+</p>
+<p>
+    <button [ngClass]="myClass?'classTrue':'classFalse'"> Hola Mundo</button>
+</p>
+<p>
+    <button (click)="onChangeClass()">Cambiar Clase</button>
+</p><br>
+<h2>ngStyle</h2>
+<p>La directiva de atributo ngStyle actualiza los estilos para un elemento HTML determinado.<br> Establece una o más propiedades de estilo, especificadas como pares clave-valor separados por dos puntos. La clave es un nombre de estilo y el valor es una expresión
+    a evaluar o valor a asignar.</p>
+<button [ngStyle]="presentacion">Texto centrado en forma horizontal y vertical.</button><br>
+<button (click)="agrandar()">Agrandar</button>
+<button (click)="reducir()">Reducir</button>
